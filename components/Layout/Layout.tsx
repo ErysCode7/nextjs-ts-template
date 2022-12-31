@@ -17,8 +17,12 @@ const Layout: NextPage<Props> = ({ children }) => {
         <title>Next.js Template</title>
       </Head>
 
+      {/* HEADER / NAVBAR */}
+
       {/* PAGE CONTENTS */}
       <div>{children}</div>
+
+      {/* FOOTER */}
     </>
   );
 };
